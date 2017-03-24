@@ -6,7 +6,7 @@ COMPUTER_CHOICES = NTRY_TO_SYM.values
 WINNERS = [[:scissors, :paper], [:paper, :rock], [:rock, :scissors]]
 LOSERS =  WINNERS.map { |i,j| [j,i] }
 
-class RockPaperScissors
+class RockPaperScissors # create class: RockPaperScissors
   def initialize
     @player_score = @computer_score = @ties = 0
   end
