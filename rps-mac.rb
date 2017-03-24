@@ -55,7 +55,7 @@ class RockPaperScissors # create class: Rock Paper Scissors
   end
 end
 
-RockPaperScissors.new.play(3) # do rock paper scissor's play method 3 times
+RockPaperScissors.new.play(3) # play rock paper scissors
 
 =begin
 
