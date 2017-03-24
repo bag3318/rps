@@ -1,5 +1,12 @@
 # RPS (Rock Paper Scissors)
 
+**Table of Contents**
+
+- [RPS (Rock Paper Scissors)](#rps-rock-paper-scissors)
+  - [Install Instructions](#install-instructions)
+    - [Macintosh](#macintosh)
+    - [Windows](#windows)
+
 ## Install Instructions
 
 ### Macintosh
