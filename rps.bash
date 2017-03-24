@@ -16,6 +16,7 @@ master() {
 
 	process() {
 		cd ~/Desktop/rps;
+		cd ~/Desktop/rbs-master;
 		chmod 755 rps_mac.rb;
 		mv rps_mac.rb rps_mac;
 		echo $PATH;

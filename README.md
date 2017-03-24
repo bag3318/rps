@@ -2,8 +2,6 @@
 
 ## Install Instructions
 
-**Important Note: make sure to clone this repo and not download the zip file**
-
 ### Macintosh
 
 1. Move the root folder to the Desktop
