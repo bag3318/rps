@@ -1,6 +1,6 @@
 #!/usr/bin/evn ruby
 
-NTRY_TO_SYM = { 'p' => :paper, 'r' => :rock, 's' => :scissors } # define entries
+NTRY_TO_SYM = { 'p' => :paper, 'r'=>:rock, 's'=>:scissors } # define entries
 VALID_ENTRIES = NTRY_TO_SYM.keys # define valid entries
 COMPUTER_CHOICES = NTRY_TO_SYM.values # define computer choices
 # WINNERS and LOSERS from the player's perspective, the first value of each
@@ -37,11 +37,11 @@ class RockPaperScissors # create class: Rock Paper Scissors
          "computer: #{@computer_score} (ties: #{@ties})" # output final scores
     # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
     case final_outcome # create a case for final outcome
-    when @player_score > @computer_score # when the player's score is > than the computer's score...
+    when :WIN# when the player's score is > than the computer's score...
       puts "Player wins!" # tell the user
-    when @player_score < @computer_score # when the player's score is < than the computer's score...
-      puts "Computer wins!" # tell the user
-    else # otherwise (most likely a tie)...
+    when :LOSE # when the player's score is < than the computer's score...
+      puts "Yea! Computer wins!" # tell the user
+    when :TIE # otherwise (most likely a tie)...
       puts "It's a tie!" # tell the user
     end
     return final_outcome # return the final outcome
@@ -61,6 +61,11 @@ class RockPaperScissors # create class: Rock Paper Scissors
     return :WIN  if WINNERS.include?(plays) # return win condition
     return :LOSE if LOSERS.include?(plays) # return lose condition
     :TIE # tie
+  end
+  def final_outcome # define final outcome method
+    return :WIN if @player_score > @computer_score # return a win if player's score is > than computer's score
+    return :LOSE if @player_score < @computer_score # return a loss if player's score is < than computer's score
+    return :TIE if @player_score = @computer_score # return a tie if player's score is = computer's score
   end
 end
 
