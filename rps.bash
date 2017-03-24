@@ -10,17 +10,17 @@ master() {
 	nonunderline=`tput rmul`; # Select non-underline mode
 
 	echo_statement() {
-		echo ${bold}Would you like to make the ${underline}rps.rb${nonunderline} an executable ruby file?${nonbold};
+		echo ${bold}Would you like to make the ${underline}rps_mac.rb${nonunderline} an executable ruby file?${nonbold};
 	}
 	echo_statement;
 
 	process() {
-		cd ~/Desktop/rps/Macintosh/bin;
-		chmod 755 rps.rb;
-		mv rps.rb rps;
+		cd ~/Desktop/rps;
+		chmod 755 rps_mac.rb;
+		mv rps_mac.rb rps_mac;
 		echo $PATH;
 		mkdir -p /usr/local/bin/;
-		ln -s $PWD/rps /usr/local/bin/;
+		ln -s $PWD/rps_mac /usr/local/bin/;
 	}
 
 	confirm() {

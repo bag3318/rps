@@ -8,7 +8,7 @@
 
 1. Move the root folder to the Desktop
 2. Open the `rps.bash` file with the `Terminal` application
-3. In order to run any time: After running the `rps.bash` file; in order to run the rps application any time, either open the `rps` file or go into `Terminal` and type in `rps` and hit <kbd>return</kbd>
+3. In order to run any time: either open the `rps_mac` file, or go into `Terminal` and type in `rps_mac` and hit <kbd>return</kbd>
 
 ### Windows
 
