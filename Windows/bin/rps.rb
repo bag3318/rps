@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 NTRY_TO_SYM = { 'p'=>:PAPER, 'r'=>:ROCK, 's'=>:SCISSORS }
 VALID_ENTRIES = NTRY_TO_SYM.keys
 COMPUTER_CHOICES = NTRY_TO_SYM.values
