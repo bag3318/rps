@@ -36,12 +36,12 @@ class RockPaperScissors # create class: Rock Paper Scissors
     puts "\nFinal score: player: #{@player_score}, " +
          "computer: #{@computer_score} (ties: #{@ties})" # output final scores
     # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-    if (@player_score > @computer_score)
-      puts "Player wins!"
-    elsif (@player_score < @computer_score)
-      puts "Yea! Computer wins!"
-    else 
-      puts "It's a tie!"
+    if (@player_score > @computer_score) # if the player's score is greater than the computer's score...
+      puts "Player wins!" # tell the user that the player won
+    elsif (@player_score < @computer_score) # if the player's score is less than the computer's score...
+      puts "Yea! Computer wins!" # tell the user that the computer won
+    else # otherwise if it's a tie...
+      puts "It's a tie!" # tell the user that it is so
     end
   end
   private # make private
@@ -65,7 +65,5 @@ end
 RockPaperScissors.new.play(3) # play rock paper scissors
 
 =begin
-
-
 
 =end
