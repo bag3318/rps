@@ -42,7 +42,7 @@ class RockPaperScissors # create class: Rock Paper Scissors
     when :TIE # otherwise (most likely a tie)...
       puts "It's a tie!" # tell the user
     end
-    return final_outcome # return the final outcome
+    return final_outcome # outputs final results
   end
   private # make private
 
