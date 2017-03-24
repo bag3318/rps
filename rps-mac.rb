@@ -22,27 +22,29 @@ class RockPaperScissors # create class: Rock Paper Scissors
       puts "Computer chooses #{computer.to_s}" # output computer choice
 
       case player_outcome [player, computer] # add a new case 
-        when :WIN # win condition
-          puts "#{player.to_s} beats #{computer.to_s}, player wins the round"
-          @player_score += 1 # add 1 point to the player
-        when :LOSE # lose condition
-          puts "#{computer.to_s} beats #{player.to_s}, computer wins the round"
-          @computer_score += 1 # add 1 point to the computer
-        else # else if it's a tie
-          puts "Tie, choose again"
-          @ties += 1 # add 1 point to the tie score
+      when :WIN # win condition
+        puts "#{player.to_s} beats #{computer.to_s}, player wins the round"
+        @player_score += 1 # add 1 point to the player
+      when :LOSE # lose condition
+        puts "#{computer.to_s} beats #{player.to_s}, computer wins the round"
+        @computer_score += 1 # add 1 point to the computer
+      else # else if it's a tie
+        puts "Tie, choose again"
+        @ties += 1 # add 1 point to the tie score
       end
     end
     puts "\nFinal score: player: #{@player_score}, " +
          "computer: #{@computer_score} (ties: #{@ties})" # output final scores
     # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-    if (@player_score > @computer_score) # if the player's score is greater than the computer's score...
-      puts "Player wins!" # tell the user that the player won
-    elsif (@player_score < @computer_score) # if the player's score is less than the computer's score...
-      puts "Yea! Computer wins!" # tell the user that the computer won
-    else # otherwise if it's a tie...
-      puts "It's a tie!" # tell the user that it is so
+    case final_outcome # create a case for final outcome
+    when @player_score > @computer_score # when the player's score is > than the computer's score...
+      puts "Player wins!" # tell the user
+    when @player_score < @computer_score # when the player's score is < than the computer's score...
+      puts "Yea! Computer wins!" # tell the user
+    else # otherwise (most likely a tie)...
+      puts "It's a tie!" # tell the user...
     end
+    return final_outcome # return the final outcome
   end
   private # make private
 
