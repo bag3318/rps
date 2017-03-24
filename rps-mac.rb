@@ -22,15 +22,15 @@ class RockPaperScissors # create class: Rock Paper Scissors
       puts "Computer chooses #{computer.to_s}"
 
       case player_outcome [player, computer]
-      when :WIN
-        puts "#{player.to_s} beats #{computer.to_s}, player wins the round"
-        @player_score += 1
-      when :LOSE
-        puts "#{computer.to_s} beats #{player.to_s}, computer wins the round"
-        @computer_score += 1
-      else
-        puts "Tie, choose again"
-        @ties += 1
+        when :WIN
+          puts "#{player.to_s} beats #{computer.to_s}, player wins the round"
+          @player_score += 1
+        when :LOSE
+          puts "#{computer.to_s} beats #{player.to_s}, computer wins the round"
+          @computer_score += 1
+        else
+          puts "Tie, choose again"
+          @ties += 1
       end
     end
     puts "\nFinal score: player: #{@player_score}, " +
@@ -56,3 +56,7 @@ class RockPaperScissors # create class: Rock Paper Scissors
 end
 
 RockPaperScissors.new.play(3)
+
+=begin
+
+=end
