@@ -15,7 +15,7 @@ master() {
 	echo_statement;
 
 	process() {
-		cd ~/Desktop/rps;
+		cd ~/Desktop/rps/Macintosh/bin;
 		chmod 755 rps.rb;
 		mv rps.rb rps;
 		echo $PATH;

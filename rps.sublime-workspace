@@ -1,0 +1,746 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exec",
+				"exec\tfunc"
+			],
+			[
+				"foled",
+				"folder_exclude_patterns"
+			],
+			[
+				"initfunction",
+				"initfunctions"
+			],
+			[
+				"init",
+				"initfunction1"
+			],
+			[
+				"INI",
+				"initfunctions"
+			],
+			[
+				"confimr",
+				"confirmations"
+			],
+			[
+				"initfunct",
+				"initfunction2"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"master",
+				"masterfunction"
+			],
+			[
+				"color",
+				"Color_Off"
+			],
+			[
+				"English-Projec",
+				"English-Project-master"
+			],
+			[
+				"rub",
+				"add_ruby_type\tfunc"
+			],
+			[
+				"add",
+				"add_development_dependency"
+			],
+			[
+				"su",
+				"SublimeLinter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"i",
+				"Set Syntax: Intel HEX"
+			],
+			[
+				"intel",
+				"Set Syntax: Intel HEX"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"google ",
+				"Google Spell Check"
+			],
+			[
+				"google",
+				"Google Spell Check"
+			],
+			[
+				"a file",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"eva",
+				"Evaluate: Evaluate Selections"
+			],
+			[
+				"color pic",
+				"Color Picker: Insert Color"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Copy to Clipboard"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git commit ",
+				"Git: Commit"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"Package Control: package",
+				"Package Control: List Packages"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"git: init",
+				"Git: Init"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Github: Repository"
+			],
+			[
+				"side bar git",
+				"Git (SideBarGit): Push"
+			],
+			[
+				"gem",
+				"Gem Browser: List Gems"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Channel"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"search",
+				"Search In Project"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"intsll",
+				"Package Control: Install Package"
+			],
+			[
+				"gemma",
+				"Gemma: Replace selection/line with Gemfile entry for latest stable version"
+			],
+			[
+				"snippet",
+				"Snippet: Long Tag"
+			],
+			[
+				"angular",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"pyling",
+				"Preferences: SublimeLinter Key Bindings – Default"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Snippet: #!/usr/bin/env ruby -wKU"
+			],
+			[
+				"SublimeLinter Settin",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"CSSLint: Run CSSLint",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"j",
+				"JSHint"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 642.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(false)",
+			"sublime.log_commands(True)",
+			"git --help",
+			"os.system(\"rubycritic\")",
+			"import os",
+			"sublime.version()",
+			"sublime.help()",
+			"sublime.version()",
+			"-linter",
+			"--exclude-linter",
+			"where scss-lint",
+			"pylint",
+			"sublimelinter-pylint",
+			"-h",
+			"--help",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brockglatman/Desktop/rps/rps.rb",
+		"/Users/brockglatman/Desktop/rps/.gitignore",
+		"/Users/brockglatman/Desktop/rps/rps.bash",
+		"/Users/brockglatman/Desktop/Sublime Text Documentation Package/RUN.bash",
+		"/Users/brockglatman/Desktop/Website-Shell-master/rps.bash",
+		"/Users/brockglatman/Desktop/rps.rb",
+		"/Users/brockglatman/Desktop/Rock Paper Scissors/rps.gemspec",
+		"/Users/brockglatman/Desktop/Rock Paper Scissors/lib/rps.rb",
+		"/Users/brockglatman/Desktop/Rock Paper Scissors/Rakefile",
+		"/Users/brockglatman/Desktop/test.rb",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/Home.txt",
+		"/Users/brockglatman/Desktop/Website-Shell-master/rps.rb",
+		"/Users/brockglatman/Desktop/Website-Shell-master/test.rb",
+		"/Users/brockglatman/Desktop/English Project/Gemfile",
+		"/Users/brockglatman/Desktop/English Project/Gemfile.lock",
+		"/Users/brockglatman/Desktop/Sublime Text Documentation Package/files/sublime-ofdocs/docs/3/tab_completion.html",
+		"/Users/brockglatman/Desktop/Sublime Text Documentation Package/unnoficial_docs.bat",
+		"/Users/brockglatman/Desktop/Sublime Text Documentation Package/official_docs.bat",
+		"/Users/brockglatman/Desktop/Sublime Text Documentation Package/official_docs.bash",
+		"/Users/brockglatman/Desktop/Sublime Text Documentation Package/unnoficial_docs.sh",
+		"/Users/brockglatman/Desktop/English Project/README.md",
+		"/Users/brockglatman/Desktop/English Project/crowdin.yaml",
+		"/Users/brockglatman/Desktop/English Project/minimal-mistakes-jekyll.gemspec",
+		"/Users/brockglatman/Desktop/English Project/minimal-mistakes-jekyll-4.0.9.gem",
+		"/Users/brockglatman/Desktop/Website-Shell-master/README.md",
+		"/Users/brockglatman/Desktop/English Project/CNAME",
+		"/Users/brockglatman/Desktop/English Project/.gitignore",
+		"/Users/brockglatman/Desktop/Website-Shell-master/Website.sublime-project",
+		"/Users/brockglatman/Desktop/Website-Shell-master/UNINSTALLER.bash",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/brockglatman/Desktop/cod eintel",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/brockglatman/Desktop/Package Control Mekssages",
+		"/Users/brockglatman/Desktop/dnvm.sh",
+		"/Users/brockglatman/Desktop/Website-Shell-master/RUN.sh",
+		"/Users/brockglatman/Desktop/Website-Shell-master/SETUP.sh",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/Users/brockglatman/Desktop/Website-Shell-master/Website.sublime-workspace",
+		"/Users/brockglatman/Desktop/Package Control Messages",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/GitHub.sublime-settings",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/SideBarGit.sublime-settings",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/Users/brockglatman/Desktop/Website-Shell-master/RUNME_AFTER.sh",
+		"/Users/brockglatman/Desktop/Website-Shell-master/RUNME.sh",
+		"/Users/brockglatman/Desktop/English Project/_includes/base_path",
+		"/Users/brockglatman/Desktop/English Project/_includes/masthead.html",
+		"/Users/brockglatman/Desktop/English Project/_data/navigation/en_US.yml",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/brockglatman/Desktop/English Project/Eli Wiesel.sublime-project",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/the_ghetto.txt",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/Early Life.txt",
+		"/Users/brockglatman/Desktop/English-Project-master/package.json",
+		"/Users/brockglatman/Desktop/English-Project-master/Gemfile",
+		"/Users/brockglatman/Desktop/English-Project-master/minimal-mistakes-jekyll.gemspec",
+		"/Users/brockglatman/Desktop/Website-Shell-master/test.sh",
+		"/Users/brockglatman/Desktop/Website-Shell-master/RUNME_data/2.sh",
+		"/Users/brockglatman/Desktop/Website-Shell-master/.gitignore",
+		"/Users/brockglatman/Desktop/Website/RUNME.sh",
+		"/Users/brockglatman/Desktop/Website/RUNME_AFTER.sh",
+		"/Users/brockglatman/Desktop/Website/RUNME_data/2.sh",
+		"/Users/brockglatman/Desktop/Website/UNINSTALLER.bash",
+		"/Users/brockglatman/Desktop/Website/do_not_delete/RUNME_AFTER.sh",
+		"/Users/brockglatman/Creative Cloud Files/RUNME.sh",
+		"/Users/brockglatman/Desktop/Website/do_not_delete/2.sh",
+		"/Users/brockglatman/Desktop/Website/DO-NOT-OPEN.sh",
+		"/Users/brockglatman/Creative Cloud Files/uninstaller.bash",
+		"/Users/brockglatman/Desktop/OPENME/RUNME_2ND.sh",
+		"/Users/brockglatman/Desktop/OPENME/RUNME_AFTER.sh",
+		"/Users/brockglatman/Desktop/OPENME/RUNME.sh",
+		"/Users/brockglatman/Creative Cloud Files/RUNME_AFTER.sh",
+		"/Users/brockglatman/Creative Cloud Files/RUNME_2ND.sh",
+		"/Users/brockglatman/Creative Cloud Files/RUNME_FIRST.sh",
+		"/Users/brockglatman/Creative Cloud Files/COMPRESSED.sh",
+		"/Users/brockglatman/Desktop/RUNME/RUNME_AFTER.sh",
+		"/Users/brockglatman/Desktop/RUNME/RUNME.sh",
+		"/Users/brockglatman/Desktop/RUNME.sh",
+		"/Users/brockglatman/Desktop/RUNME_AFTER.sh",
+		"/Users/brockglatman/Desktop/English Project/_includes/nav_list",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/camp_auschwitz.txt",
+		"/Users/brockglatman/Desktop/English Project/config.ru",
+		"/Users/brockglatman/Desktop/English Project/_includes/toc",
+		"/Users/brockglatman/Desktop/English Project/_includes/analytics.html",
+		"/Users/brockglatman/Desktop/English Project/_data/ui-text.yml",
+		"/Users/brockglatman/Desktop/English Project/_includes/comment.html",
+		"/Users/brockglatman/Desktop/English Project/_includes/feature_row",
+		"/Users/brockglatman/Desktop/English Project/_config.yml",
+		"/Users/brockglatman/Desktop/English Project/assets/css/main.scss",
+		"/Users/brockglatman/Desktop/English Project/_includes/head/custom.html",
+		"/Users/brockglatman/Desktop/English Project/_includes/head.html",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/quiz2.txt",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/quiz1.txt",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/404.txt",
+		"/Users/brockglatman/Desktop/English Project/images/safari-pinned-tab.svg",
+		"/Users/brockglatman/Desktop/English Project/_includes/scripts.html",
+		"/Users/brockglatman/Desktop/test.sh",
+		"/Users/brockglatman/Desktop/English Project/_sass/vendor/breakpoint/_breakpoint.scss",
+		"/Users/brockglatman/Desktop/English Project/_includes/author-profile.html",
+		"/Users/brockglatman/Desktop/English Project/_includes/sidebar.html",
+		"/Users/brockglatman/Desktop/English Project/_includes/browser-upgrade.html",
+		"/Users/brockglatman/Desktop/English Project/package.json",
+		"/Users/brockglatman/Desktop/English Project/_layouts/splash.html",
+		"/Users/brockglatman/Desktop/English Project/_includes/footer.html",
+		"/Users/brockglatman/Desktop/English Project/assets/css/main2.css",
+		"/Users/brockglatman/Desktop/English Project/assets/css/main1.css",
+		"/Users/brockglatman/Desktop/English Project/_includes/tag-list.html",
+		"/Users/brockglatman/Desktop/English Project/_pages/en_US/quiz_games.txt",
+		"/Users/brockglatman/Desktop/English Project/assets/js/quiz.js",
+		"/Users/brockglatman/Desktop/English Project/_layouts/archive-taxonomy.html",
+		"/Users/brockglatman/Desktop/English Project/_includes/seo.html",
+		"/Users/brockglatman/Desktop/English Project/_layouts/home.html",
+		"/Users/brockglatman/Desktop/English Project/_layouts/default.html",
+		"/Users/brockglatman/Desktop/English Project/_layouts/compress.html",
+		"/Users/brockglatman/Desktop/English Project/_layouts/archive.html",
+		"/Users/brockglatman/Desktop/English Project/---",
+		"/Users/brockglatman/Library/Application Support/Sublime Text 3/Packages/User/SearchInProject.sublime-settings",
+		"/Users/brockglatman/Desktop/Guide/_includes/masthead.html",
+		"/Users/brockglatman/Desktop/Guide/_pages/en_US/Home.txt",
+		"/Users/brockglatman/Desktop/Guide/_includes/footer.html",
+		"/Users/brockglatman/Desktop/Guide/_pages/en_US/the_ghetto.txt",
+		"/Users/brockglatman/Desktop/Guide/_pages/en_US/Early Life.txt",
+		"/Users/brockglatman/Desktop/Guide3DS/Guide/config.ru",
+		"/Users/brockglatman/Desktop/Guide3DS/Guide/minimal-mistakes-jekyll8.gemspec",
+		"/Users/brockglatman/Desktop/Guide3DS/Guide/Gemfile",
+		"/Users/brockglatman/Desktop/untitled.sh",
+		"/Users/brockglatman/Desktop/Guide3DS/rubygems-2.6.10/bundler/lib/bundler/cli.rb",
+		"/Users/brockglatman/Desktop/Guide3DS/Guide/minimal-mistakes-jekyll.gemspec",
+		"/Users/brockglatman/Desktop/Guide3DS/Guide/3DS CFW Guide.ste",
+		"/Users/brockglatman/Desktop/Guide3DS/rubygems-2.6.10/Rakefile"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":SCISSORS",
+			":ROCK",
+			":PAPER",
+			"+=",
+			"script",
+			"\t\n",
+			"/",
+			"'",
+			"method/",
+			"method",
+			"method/",
+			"/method",
+			"confirmations",
+			" \n",
+			"\"",
+			"'",
+			"END",
+			"\"\n",
+			"1",
+			"\"\n",
+			"8",
+			" ",
+			"using ",
+			";",
+			" l",
+			"--user-instal",
+			"sudo",
+			"${normal}",
+			"        ",
+			"       ",
+			"      ",
+			"        ",
+			".\n",
+			",\n",
+			"\n",
+			"# ",
+			"file",
+			"#",
+			" #",
+			"this",
+			"${BBlack}",
+			"${bold}",
+			"Press",
+			"cd",
+			"kwon",
+			"3px",
+			"weisel",
+			"weisle",
+			"wesle",
+			"weisel",
+			"/>\n",
+			"images",
+			" #",
+			"\"",
+			"~>",
+			"' ",
+			"~>",
+			"Pokemon",
+			"hr",
+			"<a ",
+			"toc",
+			"<hr",
+			"hr>",
+			"hr",
+			"toc_2",
+			"toc",
+			"rubygems",
+			">= 0",
+			"bundle",
+			"bunlde",
+			"\"",
+			"rvm",
+			"rvmm",
+			"Translate",
+			"\"~/",
+			"rubocop",
+			"adfsa",
+			"f",
+			"fsdfsadfsa",
+			"pylint",
+			"\n            ",
+			"\n        ",
+			"https",
+			"\">\n",
+			"2",
+			"3",
+			";</",
+			"ffc2bf",
+			"site navig",
+			"name",
+			">;",
+			"+",
+			"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":scissors",
+			":rock",
+			":paper",
+			">=",
+			"",
+			"confirmations_master",
+			"gem \"",
+			"",
+			"${nonbold}",
+			"${bold}",
+			"${BBlack}",
+			">=",
+			"=>",
+			"Pok&eacute;mon",
+			"<a target=\"_blank\" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 98.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 110.0
+	},
+	"output.git-commit":
+	{
+		"height": 98.0
+	},
+	"output.git-pull":
+	{
+		"height": 98.0
+	},
+	"output.git-push":
+	{
+		"height": 98.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 110.0
+	},
+	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"project": "rps.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"_includes/tag-list.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
