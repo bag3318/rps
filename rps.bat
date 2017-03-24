@@ -1,3 +1,3 @@
 @ECHO OFF
 
-ruby rps_win.rb
+ruby rps-win.rb

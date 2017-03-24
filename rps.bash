@@ -17,11 +17,11 @@ master() {
 	process() {
 		cd ~/Desktop/rps;
 		cd ~/Desktop/rbs-master;
-		chmod 755 rps_mac.rb;
-		mv rps_mac.rb rps_mac;
+		chmod 755 rps-mac.rb;
+		mv rps-mac.rb rps;
 		echo $PATH;
 		mkdir -p /usr/local/bin/;
-		ln -s $PWD/rps_mac /usr/local/bin/;
+		ln -s $PWD/rps /usr/local/bin/;
 	}
 
 	confirm() {
