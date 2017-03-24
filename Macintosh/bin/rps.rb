@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-NTRY_TO_SYM = { 'p'=>:PAPER, 'r'=>:ROCK, 's'=>:SCISSORS }
+NTRY_TO_SYM = { 'p'=>:paper, 'r'=>:rock, 's'=>:scissors }
 VALID_ENTRIES = NTRY_TO_SYM.keys
 COMPUTER_CHOICES = NTRY_TO_SYM.values
 # WINNERS and LOSERS from the player's perspective, the first value of each
 # pair being the player's choice, the second, the computer's choice.
-WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]
+WINNERS = [[:scissors, :paper], [:paper, :rock], [:rock, :scissors]]
 LOSERS =  WINNERS.map { |i,j| [j,i] }
 
 class RockPaperScissors
