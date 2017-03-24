@@ -11,7 +11,7 @@
 
 ### Macintosh
 
-1. Move the root folder to the Desktop
+1. Move the root cloned/downloaded folder to the Desktop (extract it if needed)
 2. Open the `rps.bash` file with the `Terminal` application
 3. In order to run any time: either open the `rps-mac` file, or go into `Terminal` and type in `rps-mac` and hit <kbd>return</kbd>
 
