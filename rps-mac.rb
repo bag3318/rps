@@ -1,6 +1,6 @@
 #!/usr/bin/evn ruby
 
-NTRY_TO_SYM = { 'p'=>:paper, 'r'=>:rock, 's'=>:scissors } # define entries
+NTRY_TO_SYM = { 'p' => :paper, 'r' => :rock, 's' => :scissors } # define entries
 VALID_ENTRIES = NTRY_TO_SYM.keys # define valid entries
 COMPUTER_CHOICES = NTRY_TO_SYM.values # define computer choices
 # WINNERS and LOSERS from the player's perspective, the first value of each
