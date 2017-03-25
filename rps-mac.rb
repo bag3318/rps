@@ -11,6 +11,12 @@ class Master # create master class
   LOSERS =  WINNERS.map { |i,j| [j,i] }; # define losers
 
   class RockPaperScissors # create class: Rock Paper Scissors
+    def self.continue(str1, str2)
+      puts str1;
+      puts str2;
+      gets;
+    end;
+    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press any key to continue...");
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them = to 0
     end;
