@@ -15,13 +15,13 @@ class Master # create master class
   # Thus when we do `[j,i]`, we flip the symbols and switch the outcome
 
   class RockPaperScissors # create class: Rock Paper Scissors
-    class << self
+    class << self # nest a self class
       def continue(str1, str2) # define self function continue; pass in str1 and str2
         puts str1; # print str1
         puts str2; # print str2
         gets; # press any key to continue
       end; # end `continue` method
-    end;
+    end; # end self class
     continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press any key to continue..."); # call continue method while passing in these 2 strings
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them = to 0
