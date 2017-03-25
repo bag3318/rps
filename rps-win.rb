@@ -1,3 +1,13 @@
+=begin
+|=====================================|
+| Code to English Comments Available  |
+|-------------------------------------|
+| Key:                                |
+|-------------------------------------|
+| # = comment in ruby                 |
+|_____________________________________|
+=end
+
 class Master # create master class
 
   NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
