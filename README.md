@@ -19,9 +19,9 @@
 2. Open the `rps.bash` file with the `Terminal` application
    * To do this, press <kbd>command</kbd> and <kbd>space</kbd> at the same time, then type in `Terminal.app`, and hit <kbd>return</kbd>. Then proceed to drag the `rps.bash` file onto the `Terminal` and press <kbd>return</kbd>
 
-#### How to Run RPS
+#### How to Run RPS at Any Time
 
-Either open the `rps-mac` file, or go into `Terminal` and type in `rps` and hit <kbd>return</kbd>
+Either open the `rps` file, or go into `Terminal` and type in `rps` and hit <kbd>return</kbd>
 
 > To open the `Terminal`, press <kbd>command</kbd> and <kbd>space</kbd> at the same time, then type in `Terminal.app`
 

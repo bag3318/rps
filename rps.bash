@@ -22,7 +22,8 @@ master() {
 		echo $PATH;
 		mkdir -p /usr/local/bin/;
 		ln -s $PWD/rps /usr/local/bin/;
-	}
+		open -a Terminal.app rps;
+ 	}
 
 	confirm() {
 		echo ${bold}Press ${underline}C${nonunderline} to ${underline}continue${nonunderline}, or press ${underline}Q${nonunderline} to ${underline}quit${nonunderline}.${nonbold};
