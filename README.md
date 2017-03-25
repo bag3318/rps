@@ -41,7 +41,7 @@ If you wish to remove the `rps` command, then open the `remover.sh` with the `Te
 
 **Question:**
 
-**When I run the `rps.bat` file, it opens notebad**
+**When I run the `rps.bat` file, it opens notepad**
 
 **Answer:**
 
