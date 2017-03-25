@@ -10,7 +10,7 @@
     - [Windows](#windows)
       - [Troubleshooting](#troubleshooting)
 
-## Install Instructions
+## Installation Instructions
 
 ### Macintosh
 
