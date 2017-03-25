@@ -8,6 +8,7 @@
       - [How to Run RPS](#how-to-run-rps)
       - [How to Remove the RPS Command](#how-to-remove-the-rps-command)
     - [Windows](#windows)
+      - [Troubleshooting](#troubleshooting)
 
 ## Install Instructions
 
@@ -35,4 +36,14 @@ If you wish to remove the `rps` command, then open the `remover.sh` with the `Te
 1. Install ruby; download [here](http://rubyinstaller.org/downloads/)
 2. Open the `rps.bat` file with the `Command Prompt` application
 3. In order to run any time: Just run the `rps.bat` file again.
+
+#### Troubleshooting
+
+**Question:**
+
+**When I run the `rps.bat` file, it opens notebad**
+
+**Answer:**
+
+**Right click the `rps-win.bat` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program.**
 

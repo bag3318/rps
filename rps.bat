@@ -1,18 +1,22 @@
 @ECHO OFF
 
-:Echos 
-ECHO Would you like to run rps-win.rb?
-ECHO Press C to continue, or press Q to quit.
-EXIT
+:master
+	:echo_statement
+		ECHO Would you like to run the `rps-win.rb` file?
+		ECHO Note: you must have Ruby installed. If you don't, read the `README.md` file on Github for this repo for more info.
+	GOTO:EOF
+	CALL:echo_statement
+	:choose
+		CHOICE /C YN
+		IF %ERRORLEVEL%==1 CALL:process
+		IF %ERRORLEVEL%==2 CALL:exiting
+	GOTO:EOF
+	:process
+		rps-win.rb
+	GOTO:EOF
+	:exiting
+		EXIT
+	GOTO:EOF
+GOTO:EOF
 
-CALL :Echos
-
-:Detect_Key_Press
-CHOICE CcQq
-IF %errorlevel%==1 ruby rps-win.rb REM  GOTO
-IF %errorlevel%==2 ruby rps-win.rb REM  GOTO
-IF %errorlevel%==3 EXIT REM  GOTO
-IF %errorlevel%==4 EXIT REM  GOTO
-EXIT
-
-CALL :Detect_Key_Press
+CALL:master
