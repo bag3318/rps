@@ -45,5 +45,5 @@ If you wish to remove the `rps` command, then open the `remover.sh` with the `Te
 
 **Solution:**
 
-**Right click the `rps-win.bat` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program.**
+**Right click the `rps-win.bat` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program (note: you will need to have Ruby installed for this to work, see above instructions for download link).**
 

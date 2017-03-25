@@ -37,11 +37,16 @@ master() {
 		return $retval;
 	}
 
+	exit_terminal() {
+		echo ${bold}Bye!${nonbold};
+		exit;
+	}
+
 	init() {
 		if confirm; then
 			process;
 		else
-			echo ${bold}Bye!${nonbold};
+			exit_terminal();
 		fi;
 	}
 	init;
