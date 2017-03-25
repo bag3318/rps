@@ -15,6 +15,9 @@ master() {
 	echo_statement;
 	process() {
 		sudo rm -r /usr/local/bin/rps;
+		cd ~/Desktop/rps;
+		cd ~/Desktop/rps-master;
+		mv rps rps-mac.rb;
 	}
 	confirmation() {
 		echo ${bold}Press ${underline}R${nonunderline} to ${underline}remove${nonunderline} it, or press ${underline}K${nonunderline} to ${underline}keep${nonunderline} it.${nonbold};
