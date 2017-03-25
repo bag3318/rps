@@ -11,7 +11,7 @@
 =end
 
 class Master # create master class
-
+  
   module ObjectArrays # create new module
     NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
     VALID_ENTRIES = NTRY_TO_SYM.keys; # define valid entries
@@ -26,7 +26,6 @@ class Master # create master class
     # So `i` means the player's choice, and `j` means the computers choice. 
     # Thus when we do `[j,i]`, we flip the symbols and switch the outcome
   end; # end module
-
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self class

@@ -45,5 +45,5 @@ When I run the `rps.bat` file, it opens notepad.
 
 **Solution:**
 
-Right click the `rps-win.bat` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program (note: you will need to have Ruby installed for this to work, see above instructions for download link).
+Right click the `rps-win.rb` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program (note: you will need to have Ruby installed for this to work, see above instructions for download link).
 
