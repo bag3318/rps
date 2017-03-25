@@ -23,7 +23,7 @@
 
 Either open the `rps` file, or go into `Terminal` and type in `rps` and hit <kbd>return</kbd>
 
-> To open the `Terminal`, press <kbd>command</kbd> and <kbd>space</kbd> at the same time, then type in `Terminal.app`
+> To open the `Terminal`, press <kbd>command</kbd> and <kbd>space</kbd> at the same time, then type in `Terminal.app` and hit <kbd>return</kbd>
 
 #### How to Remove the RPS Command
 
