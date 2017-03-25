@@ -39,11 +39,11 @@ If you wish to remove the `rps` command, then open the `remover.sh` with the `Te
 
 #### Troubleshooting
 
-**Question:**
+**Problem:**
 
 **When I run the `rps.bat` file, it opens notepad**
 
-**Answer:**
+**Solution:**
 
 **Right click the `rps-win.bat` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program.**
 
