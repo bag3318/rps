@@ -10,6 +10,14 @@ class Master # create master class
   WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # define winners 
   LOSERS =  WINNERS.map { |i,j| [j,i] }; # define losers
 
+=begin
+`LOSERS = WINNERS.MAP { |i,j| [j,i] };`
+What this means:
+The .map is used to create an array based off of the original (which is the `WINNERS` array in this case), though with modified values.
+So `i` means the player's choice, and `j` means the computers choice. 
+Thus when we do `[j,i]`, we flip the symbols and switch the outcome
+=end
+
   class RockPaperScissors # create class: Rock Paper Scissors
     def self.continue(str1, str2) # define self function continue; pass in str1 and str2
       puts str1; # print str1
@@ -84,5 +92,4 @@ Master::RockPaperScissors.new.play(3); # play rock paper scissors, best out of 3
 ORIGINAL CODE:
 http://stackoverflow.com/a/26395899
 =end
-
 
