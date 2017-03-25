@@ -47,7 +47,6 @@ class Master
       return final_outcome; # return the final outcome
     end;
     private # make private
-
     def player_choice # define the player's choice
       loop do
         print "Choose rock (r), paper (p) or scissors (s): ";
