@@ -64,7 +64,7 @@ class Master # create master class
       puts "\nFinal score: player: #{@player_score}, " +
            "computer: #{@computer_score} (ties: #{@ties})"; # output final scores
       # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-      case final_outcome # create a case for final outcome
+      case final_outcome(@player_score, @computer_score) # create a case for final outcome
       when :WIN # when the player's score is > than the computer's score...
         puts "Player wins!"; # tell the user
       when :LOSE # when the player's score is < than the computer's score...
@@ -72,7 +72,6 @@ class Master # create master class
       else # otherwise (most likely a tie)...
         puts "It's a tie!"; # tell the user
       end; # end case statement
-      return final_outcome; # return the final outcome
     end; # end play method
     private # make private
 
@@ -90,10 +89,10 @@ class Master # create master class
       return :LOSE if ObjectArrays::LOSERS.include?(plays); # return lose condition
       :TIE; # tie
     end; # end player outcome method
-    def final_outcome # define final outcome method
-      return :WIN if @player_score > @computer_score; # return a win if player's score is > than computer's score
-      return :LOSE if @player_score < @computer_score; # return a loss if player's score is < than computer's score
-      return :TIE if @player_score = @computer_score; # return a tie if player's score is = computer's score
+    def final_outcome(pl, co) # define final outcome method
+      return :WIN if pl > co; # return a win if player's score is > than computer's score
+      return :LOSE if pl < co; # return a loss if player's score is < than computer's score
+      return :TIE if pl = co; # return a tie if player's score is = computer's score
     end; # end final_outcome
   end; # end rock paper scissors class
 end; # end master class
