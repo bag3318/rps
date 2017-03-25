@@ -18,7 +18,7 @@ class Master # create master class
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self
-      def continue(user_name, str1, str2) # define self function continue; pass in str1 and str2
+      def continue(str1, str2) # define self function continue; pass in str1 and str2
         puts str1; # print str1
         puts str2; # print str2
         gets; # press any key to continue
