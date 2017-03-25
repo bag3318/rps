@@ -73,7 +73,9 @@ end;
 Master::RockPaperScissors.new.play(3); # play rock paper scissors, best out of 3
 
 =begin
-
+ORIGINAL CODE:
+http://stackoverflow.com/a/26395899
 =end
+
 
 
