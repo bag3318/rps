@@ -10,7 +10,7 @@ master() {
 	nonunderline=`tput rmul`; # Select non-underline mode
 
 	echo_statement() {
-		echo ${bold}Would you like to make the ${underline}rps_mac.rb${nonunderline} an executable ruby file?${nonbold};
+		echo ${bold}Would you like to make the ${underline}rps-mac.rb${nonunderline} an executable ruby file?${nonbold};
 	}
 	echo_statement;
 
