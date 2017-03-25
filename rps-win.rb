@@ -1,4 +1,4 @@
-class Master
+class Master # create master class
 
   NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
   VALID_ENTRIES = NTRY_TO_SYM.keys; # define valid entries
@@ -47,6 +47,7 @@ class Master
       return final_outcome; # return the final outcome
     end;
     private # make private
+
     def player_choice # define the player's choice
       loop do
         print "Choose rock (r), paper (p) or scissors (s): ";
@@ -69,7 +70,7 @@ class Master
   end;
 end;
 
-Master::RockPaperScissors.new.play(3); # play rock paper scissors
+Master::RockPaperScissors.new.play(3); # play rock paper scissors, best out of 3
 
 =begin
 

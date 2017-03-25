@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-class Master
+class Master # create master class
 
   NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
   VALID_ENTRIES = NTRY_TO_SYM.keys; # define valid entries
@@ -72,7 +72,7 @@ class Master
   end;
 end;
 
-Master::RockPaperScissors.new.play(3); # play rock paper scissors
+Master::RockPaperScissors.new.play(3); # play rock paper scissors, best out of 3
 
 =begin
 
