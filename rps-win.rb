@@ -8,7 +8,7 @@ class Master # create master class
   WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # define winners 
   LOSERS =  WINNERS.map { |i,j| [j,i] }; # define losers
 
-  # `LOSERS = WINNERS.MAP { |i,j| [j,i] };`
+  # `LOSERS = WINNERS.map { |i,j| [j,i] };`
   # What this means:
   # The .map is used to create an array based off of the original (which is the `WINNERS` array in this case), though with modified values.
   # So `i` means the player's choice, and `j` means the computers choice. 
