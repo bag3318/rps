@@ -12,14 +12,16 @@
 
 class Master # create master class
 
-  NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
-  VALID_ENTRIES = NTRY_TO_SYM.keys; # define valid entries
-  COMPUTER_CHOICES = NTRY_TO_SYM.values; # define computer choices
-  # WINNERS and LOSERS from the player's perspective, the first value of each
-  # pair being the player's choice, the second, the computer's choice.
-  WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # define winners 
-  LOSERS = WINNERS.map { |i,j| [j,i] }; # define losers
-
+  module ObjectArrays # create new module
+    NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
+    VALID_ENTRIES = NTRY_TO_SYM.keys; # define valid entries
+    COMPUTER_CHOICES = NTRY_TO_SYM.values; # define computer choices
+    # WINNERS and LOSERS from the player's perspective, the first value of each
+    # pair being the player's choice, the second, the computer's choice.
+    WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # define winners 
+    LOSERS = WINNERS.map { |i,j| [j,i] }; # define losers
+  end; # end module
+  
   # `LOSERS = WINNERS.map { |i,j| [j,i] };`
   # What this means:
   # The .map is used to create an array based off of the original (which is the `WINNERS` array in this case), though with modified values.
@@ -43,7 +45,7 @@ class Master # create master class
         puts "Player score: #{@player_score}, " + 
              "Computer score: #{@computer_score}, Ties: #{@ties}"; # output scores
         player = player_choice; # define player variable; chooses user-defined input
-        computer = COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
+        computer = ObjectArrays::COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
         puts "\nPlayer chooses #{player.to_s.downcase}"; # output what the player chooses
         puts "Computer chooses #{computer.to_s.downcase}"; # output computer choice
 
@@ -78,14 +80,14 @@ class Master # create master class
       loop do
         print "Choose rock (r), paper (p) or scissors (s): ";
         choice = gets.chomp.downcase; # define choice variable
-        return NTRY_TO_SYM[choice] if NTRY_TO_SYM.key?(choice); # if not one of the valid entries
+        return ObjectArrays::NTRY_TO_SYM[choice] if ObjectArrays::NTRY_TO_SYM.key?(choice); # if not one of the valid entries
         puts "That entry is invalid. Please re-enter"; # output this
       end; # end loop do
     end; # end play_choice
 
     def player_outcome(plays) # define player outcome
-      return :WIN  if WINNERS.include?(plays); # return win condition
-      return :LOSE if LOSERS.include?(plays); # return lose condition
+      return :WIN  if ObjectArrays::WINNERS.include?(plays); # return win condition
+      return :LOSE if ObjectArrays::LOSERS.include?(plays); # return lose condition
       :TIE; # tie
     end; # end player outcome method
     def final_outcome # define final outcome method
