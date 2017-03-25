@@ -61,7 +61,7 @@ class Master # create master class
       puts "\nFinal score: player: #{@player_score}, " +
            "computer: #{@computer_score} (ties: #{@ties})"; # output final scores
       # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-      gets;
+      gets; # pause
       case final_outcome(@player_score, @computer_score) # create a case for final outcome
       when :WIN # when the player's score is > than the computer's score...
         puts "Player wins!"; # tell the user
