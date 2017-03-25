@@ -75,8 +75,7 @@ end;
 Master::RockPaperScissors.new.play(3); # play rock paper scissors
 
 =begin
-jgffl;sfjdasl;f
-fjals;dfs
+
 =end
 
 
