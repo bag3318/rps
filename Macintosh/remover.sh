@@ -15,8 +15,8 @@ master() {
 	echo_statement;
 	process() {
 		sudo rm -r /usr/local/bin/rps;
-		cd ~/Desktop/rps;
-		cd ~/Desktop/rps-master;
+		cd ~/Desktop/rps/Macintosh/bin;
+		cd ~/Desktop/rps-master/Macintosh/bin;
 		mv rps rps-mac.rb;
 	}
 	confirmation() {
