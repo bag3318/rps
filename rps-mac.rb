@@ -35,7 +35,7 @@ class Master # create master class
         gets; # press any key to continue
       end; # end `continue` method
     end; # end self class
-    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press any return to continue..."); # call continue method while passing in these 2 strings
+    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the return key to continue..."); # call continue method while passing in these 2 strings
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them = to 0
     end; # end initialize

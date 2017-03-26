@@ -33,7 +33,7 @@ class Master # create master class
         gets; # press any key to continue
       end; # end `continue` method
     end; # end self class
-    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press any enter to continue..."); # call continue method while passing in these 2 strings
+    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the enter key to continue..."); # call continue method while passing in these 2 strings
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them = to 0
     end; # end initialize
@@ -61,7 +61,6 @@ class Master # create master class
       puts "\nFinal score: player: #{@player_score}, " +
            "computer: #{@computer_score} (ties: #{@ties})"; # output final scores
       # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-      gets; # pause
       case final_outcome(@player_score, @computer_score) # create a case for final outcome
       when :WIN # when the player's score is > than the computer's score...
         puts "Player wins!"; # tell the user
@@ -71,6 +70,8 @@ class Master # create master class
         puts "It's a tie!"; # tell the user
       end; # end case statement
     end; # end play method
+    puts ""; # add a new blank line
+    gets; # pause
     private # make private
 
     def player_choice # define the player's choice
