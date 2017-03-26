@@ -1,8 +1,8 @@
 @ECHO OFF
 
 :master
-	ECHO Would you like to run the `rps-win.rb` file?
-	ECHO Note: you must have Ruby installed. If you don't, read the `README.md` file on Github for this repo for more info.
+	ECHO "Would you like to run the `rps-win.rb` file?"
+	ECHO "Note: you must have Ruby installed. If you don't, read the `README.md` file on Github for this repo for more info."
 	:choose
 		CHOICE /C YN
 		IF %ERRORLEVEL%==1 CALL:process
