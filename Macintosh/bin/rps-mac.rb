@@ -12,7 +12,7 @@
 
 class Master # create master class
 
-  require "./ObjectArrays.rb";
+  require "~/Desktop/rps/Macintosh/ref/ObjectArrays.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
