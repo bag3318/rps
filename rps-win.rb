@@ -69,9 +69,10 @@ class Master # create master class
       else # otherwise (most likely a tie)...
         puts "It's a tie!"; # tell the user
       end; # end case statement
+      puts ""; # add a new blank line
+      gets; # pause
     end; # end play method
-    puts ""; # add a new blank line
-    gets; # pause
+
     private # make private
 
     def player_choice # define the player's choice
