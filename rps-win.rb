@@ -43,13 +43,13 @@ class Master # create master class
         puts "Computer chooses #{computer.to_s.downcase}"; # output computer choice
         case player_outcome [player, computer] # add a new case 
         when :WIN # win condition
-          puts "#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round";
+          puts "#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round"; # tell the user
           @player_score += 1; # add 1 point to the player
         when :LOSE # lose condition
-          puts "#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round";
+          puts "#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round"; # tell the user
           @computer_score += 1; # add 1 point to the computer
         else # else if it's a tie
-          puts "Tie, choose again";
+          puts "Tie, choose again"; # tell the user
           @ties += 1; # add 1 point to the tie score
         end; # end case statement
       end; # end while loop
