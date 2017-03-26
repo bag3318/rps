@@ -66,7 +66,7 @@ class Master # create master class
         puts "Player wins!"; # tell the user
       when :LOSE # when the player's score is < than the computer's score...
         puts "Computer wins!"; # tell the user
-      else 
+      else # else if it's a tie...
         puts "It's a tie!";
       end; # end case statement
       puts ""; # add a new blank line
