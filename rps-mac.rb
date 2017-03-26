@@ -45,9 +45,9 @@ class Master # create master class
              "Computer score: #{@computer_score}, Ties: #{@ties}"; # output scores
         player = player_choice; # define player variable; chooses user-defined input
         computer = ObjectArrays::COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
+        scores = [@player_score, @computer_score]; # define scores variable = to an array that contains the computer's score and the player's score
         puts "\nPlayer chooses #{player.to_s.downcase}"; # output what the player chooses
         puts "Computer chooses #{computer.to_s.downcase}"; # output computer choice
-
         case player_outcome [player, computer] # add a new case 
         when :WIN # win condition
           puts "#{player.to_s.downcase} beats #{computer.to_s.downcase}, player wins the round";
@@ -63,12 +63,12 @@ class Master # create master class
       puts "\nFinal score: player: #{@player_score}, " +
            "computer: #{@computer_score} (ties: #{@ties})"; # output final scores
       # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-      case final_outcome(@player_score, @computer_score) # create a case for final outcome
+      case final_outcome(scores[0], scores[1]) # create a case for final outcome
       when :WIN # when the player's score is > than the computer's score...
         puts "Player wins!"; # tell the user
       when :LOSE # when the player's score is < than the computer's score...
         puts "Computer wins!"; # tell the user
-      else # otherwise (most likely a tie)...
+      when :TIE # otherwise (most likely a tie)...
         puts "It's a tie!"; # tell the user
       end; # end case statement
     end; # end play method
