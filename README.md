@@ -1,3 +1,5 @@
+[//]: # (START README.md MARKDOWN FILE)
+
 # RPS (Rock Paper Scissors)
 
 **Table of Contents**
@@ -47,3 +49,4 @@ When I run the `rps.bat` file, it opens notepad.
 
 Right click the `rps-win.rb` file, then hover over the `Open With` option, then click `Choose default program`, then click the `Ruby` program (note: you will need to have Ruby installed for this to work, see above instructions for download link).
 
+[//]: # (END README.md MARKDOWN FILE)
