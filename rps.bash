@@ -46,7 +46,7 @@ master() {
 		if confirm; then
 			process;
 		else
-			exit_terminal();
+			exit_terminal;
 		fi;
 	}
 	init;
