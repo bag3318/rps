@@ -9,7 +9,7 @@
 		IF %ERRORLEVEL%==2 CALL:exiting
 	GOTO:EOF
 	:process
-		rps-win.rb
+		start cmd.exe /k rps-win.rb
 	GOTO:EOF
 	:exiting
 		EXIT

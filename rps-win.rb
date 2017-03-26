@@ -18,6 +18,7 @@ class Master # create master class
     # pair being the player's choice, the second, the computer's choice.
     WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # define winners 
     LOSERS = WINNERS.map { |i,j| [j,i] }; # define losers
+    STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the enter key to continue..."]; # create a strings array for later use
     # `LOSERS = WINNERS.map { |i,j| [j,i] };`
     # What this means:
     # The .map is used to create an array based off of the original (which is the `WINNERS` array in this case), though with modified values.
@@ -27,13 +28,13 @@ class Master # create master class
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
-      def continue(str1, str2) # define self function continue; pass in str1 and str2
+      def continue(str1, str2) # define self method continue; pass in str1 and str2
         puts str1; # print str1
         puts str2; # print str2
         gets; # press any key to continue
       end; # end `continue` method
     end; # end self class
-    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the enter key to continue..."); # call continue method while passing in these 2 strings
+    continue(ObjectArrays::STRINGS[0], ObjectArrays::STRINGS[1]); # call continue method while passing in these 2 strings
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them all = to 0
     end; # end initialize
@@ -91,7 +92,7 @@ class Master # create master class
     def final_outcome(pl, co) # define final outcome method
       return :WIN if pl > co; # return a win if player's score is > than computer's score
       return :LOSE if pl < co; # return a loss if player's score is < than computer's score
-      return :TIE if pl = co;
+      return :TIE if pl = co; # return a tie if the player's score is = the computer's score
     end; # end final_outcome
   end; # end rock paper scissors class
 end; # end master class

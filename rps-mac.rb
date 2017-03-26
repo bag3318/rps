@@ -20,6 +20,7 @@ class Master # create master class
     # pair being the player's choice, the second, the computer's choice.
     WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # define winners 
     LOSERS = WINNERS.map { |i,j| [j,i] }; # define losers
+    STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the return key to continue..."]; # create a strings array for later use
     # `LOSERS = WINNERS.map { |i,j| [j,i] };`
     # What this means:
     # The .map is used to create an array based off of the original (which is the `WINNERS` array in this case), though with modified values.
@@ -35,7 +36,7 @@ class Master # create master class
         gets; # press any key to continue
       end; # end `continue` method
     end; # end self class
-    continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the return key to continue..."); # call continue method while passing in these 2 strings
+    continue(ObjectArrays::STRINGS[0], ObjectArrays::STRINGS[1]); # call continue method while passing in these 2 strings
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them all = to 0
     end; # end initialize
