@@ -66,7 +66,7 @@ class Master # create master class
         puts "It's a tie!"; # tell the user
       end; # end case statement
     end; # end play method
-    private # make private
+    private # make the rest private
 
     def player_choice # define the player's choice
       loop do

@@ -67,7 +67,7 @@ class Master # create master class
       gets; # pause
     end; # end play method
 
-    private # make private
+    private # make the rest private
 
     def player_choice # define the player's choice
       loop do
