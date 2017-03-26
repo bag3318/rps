@@ -10,7 +10,7 @@
 
 class Master # create master class
 
-  require "~/Desktop/rps/Macintosh/ref/ObjectArrays.rb";
+  require "./ObjectArrays.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
@@ -57,7 +57,7 @@ class Master # create master class
       puts ""; # add a new blank line
       gets; # pause
     end; # end play method
-    require "~/Desktop/rps/Macintosh/ref/PrivateVars.rb"; # require the private variables module
+    require "./PrivateVars.rb"; # require the private variables module
   end; # end rock paper scissors class
 end; # end master class
 
