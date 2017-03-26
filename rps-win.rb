@@ -26,7 +26,7 @@ class Master # create master class
   end; # end module
 
   class RockPaperScissors # create class: Rock Paper Scissors
-    class << self # nest a self class
+    class << self # nest a self defined class
       def continue(str1, str2) # define self function continue; pass in str1 and str2
         puts str1; # print str1
         puts str2; # print str2
@@ -35,7 +35,7 @@ class Master # create master class
     end; # end self class
     continue("You are about to enter a rock-paper-scissors best of 3 match.", "Press the enter key to continue..."); # call continue method while passing in these 2 strings
     def initialize # define all dynamic variables ...
-      @player_score = @computer_score = @ties = 0; # set them = to 0
+      @player_score = @computer_score = @ties = 0; # set them all = to 0
     end; # end initialize
     def play(winning_score) # define play method; pass in winning_score
       while @player_score < winning_score && @computer_score < winning_score # loop through the scores
@@ -43,7 +43,6 @@ class Master # create master class
              "Computer score: #{@computer_score}, Ties: #{@ties}"; # output scores
         player = player_choice; # define player variable; chooses user-defined input
         computer = ObjectArrays::COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
-        scores = [@player_score, @computer_score]; # define scores variable = to an array that contains the computer's score and the player's score
         puts "\nPlayer chooses #{player.to_s.downcase}"; # output what the player chooses
         puts "Computer chooses #{computer.to_s.downcase}"; # output computer choice
         case player_outcome [player, computer] # add a new case 
@@ -61,13 +60,13 @@ class Master # create master class
       puts "\nFinal score: player: #{@player_score}, " +
            "computer: #{@computer_score} (ties: #{@ties})"; # output final scores
       # puts (@player_score == 2) ? "Player wins!" : "Yea! Computer wins!"
-      case final_outcome(scores[0], scores[1]) # create a case for final outcome
+      case final_outcome(@player_score, @computer_score) # create a case for final outcome
       when :WIN # when the player's score is > than the computer's score...
         puts "Player wins!"; # tell the user
       when :LOSE # when the player's score is < than the computer's score...
         puts "Computer wins!"; # tell the user
-      when :TIE # otherwise (most likely a tie)...
-        puts "It's a tie!"; # tell the user
+      else 
+        puts "It's a tie!";
       end; # end case statement
       puts ""; # add a new blank line
       gets; # pause
@@ -92,7 +91,7 @@ class Master # create master class
     def final_outcome(pl, co) # define final outcome method
       return :WIN if pl > co; # return a win if player's score is > than computer's score
       return :LOSE if pl < co; # return a loss if player's score is < than computer's score
-      return :TIE if pl = co; # return a tie if player's score is = computer's score
+      return :TIE if pl = co;
     end; # end final_outcome
   end; # end rock paper scissors class
 end; # end master class
