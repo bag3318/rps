@@ -10,11 +10,7 @@
 
 class Master # create master class
 
-<<<<<<< HEAD:Windows/bin/rps-win.rb
-  require "~/Desktop/rps/Windows/ref/ObjectArrays.rb"; # reference the ObjectArrays.rb module
-=======
   require "./ObjectArrays.rb";
->>>>>>> 5cae073... Update:rps-win.rb
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
