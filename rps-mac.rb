@@ -26,8 +26,8 @@ class Master # create master class
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
       def continue(str1, str2) # define self function continue; pass in str1 and str2
-        puts str1; # print str1
-        puts str2; # print str2
+        puts str1; # print string1
+        puts str2; # print string2
         gets; # press any key to continue
       end; # end `continue` method
     end; # end self class
