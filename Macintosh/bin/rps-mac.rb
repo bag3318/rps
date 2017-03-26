@@ -12,7 +12,11 @@
 
 class Master # create master class
 
+<<<<<<< HEAD:Macintosh/bin/rps-mac.rb
   require "~/Desktop/rps/Macintosh/ref/ObjectArrays.rb"; # reference the ObjectArrays.rb module
+=======
+  require "./ObjectArrays.rb";
+>>>>>>> 5cae073... Update:rps-mac.rb
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
