@@ -28,11 +28,11 @@ class Master # create master class
       while @player_score < winning_score && @computer_score < winning_score # loop through the scores
         puts "Player score: #{@player_score}, " + 
              "Computer score: #{@computer_score}, Ties: #{@ties}"; # output scores
-        player = player_choice; # define player variable; chooses user-defined input
+        player = PrivateVars.player_choice; # define player variable; chooses user-defined input
         computer = ObjectArrays::COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
         puts "\nPlayer chooses #{player.to_s.downcase}"; # output what the player chooses
         puts "Computer chooses #{computer.to_s.downcase}"; # output computer choice
-        case player_outcome [player, computer] # add a new case 
+        case PrivateVars.player_outcome [player, computer] # add a new case 
         when :WIN # win condition
           puts "#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round"; # tell the user
           @player_score += 1; # add 1 point to the player
@@ -46,7 +46,7 @@ class Master # create master class
       end; # end while loop
       puts "\nFinal score: player: #{@player_score}, " +
            "computer: #{@computer_score} (ties: #{@ties})"; # output final scores
-      case final_outcome(@player_score, @computer_score) # create a case for final outcome
+      case PrivateVars.final_outcome(@player_score, @computer_score) # create a case for final outcome
       when :WIN # when the player's score is > than the computer's score...
         puts "Player wins!"; # tell the user
       when :LOSE # when the player's score is < than the computer's score...
@@ -57,28 +57,7 @@ class Master # create master class
       puts ""; # add a new blank line
       gets; # pause
     end; # end play method
-
-    private # make the rest private
-
-    def player_choice # define the player's choice
-      loop do
-        print "Choose rock (r), paper (p) or scissors (s): ";
-        choice = gets.chomp.downcase; # define choice variable
-        return ObjectArrays::NTRY_TO_SYM[choice] if ObjectArrays::NTRY_TO_SYM.key?(choice); # if not one of the valid entries
-        puts "That entry is invalid. Please re-enter"; # output this
-      end; # end loop do
-    end; # end play_choice
-
-    def player_outcome(plays) # define player outcome
-      return :WIN  if ObjectArrays::WINNERS.include?(plays); # return win condition
-      return :LOSE if ObjectArrays::LOSERS.include?(plays); # return lose condition
-      :TIE; # tie
-    end; # end player outcome method
-    def final_outcome(pl, co) # define final outcome method
-      return :WIN if pl > co; # return a win if player's score is > than computer's score
-      return :LOSE if pl < co; # return a loss if player's score is < than computer's score
-      return :TIE if pl = co; # return a tie if the player's score is = the computer's score
-    end; # end final_outcome
+    require "./PrivateVars.rb"; # require the private variables module
   end; # end rock paper scissors class
 end; # end master class
 
