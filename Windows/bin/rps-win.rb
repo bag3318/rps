@@ -10,17 +10,10 @@
 
 class Master # create master class
 
-  require "~/Desktop/rps/Macintosh/bin/ObjectArrays.rb";
+  require "~/Desktop/rps/Windows/ref/ObjectArrays.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
-    class << self # nest a self defined class
-      def continue(str1, str2) # define self method continue; pass in str1 and str2
-        puts str1; # print string1
-        print str2; # print string2
-        gets; # press the enter key to continue
-      end; # end `continue` method
-    end; # end self class
-    continue(ObjectArrays::STRINGS[0], ObjectArrays::STRINGS[1]); # call continue method while passing in these 2 strings
+    require "~/Desktop/rps/Windows/ref/InitText.rb";
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them all = to 0
     end; # end initialize
@@ -57,7 +50,7 @@ class Master # create master class
       puts ""; # add a new blank line
       gets; # pause
     end; # end play method
-    require "~/Desktop/rps/Macintosh/bin/PrivateVars.rb"; # require the private variables module
+    require "~/Desktop/rps/Windows/ref/PrivateVars.rb"; # require the private variables module
   end; # end rock paper scissors class
 end; # end master class
 
