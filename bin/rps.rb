@@ -85,8 +85,7 @@ class Master
         def player_outcome(plays)
           return :WIN  if ObjectArrays::WINNERS.include?(plays);
           return :LOSE if ObjectArrays::LOSERS.include?(plays);
-          return :TIE if !(ObjectArrays::WINNERS.include?(plays) || ObjectArrays::LOSERS.include?(plays)); 
-          # return :TIE if !(:WIN || :LOSE); 
+          return :TIE if !:WIN | !:LOSE; 
         end; 
         def final_outcome(pl, co) 
           return :WIN if pl > co; 
