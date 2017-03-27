@@ -12,7 +12,7 @@
 
 class Master # create master class
 
-  require "./ObjectArrays.rb";
+  require "~/Desktop/rps/Macintosh/bin/ObjectArrays.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
     class << self # nest a self defined class
@@ -57,7 +57,7 @@ class Master # create master class
         puts "It's a tie!"; # tell the user
       end; # end case statement
     end; # end play method
-    require "./PrivateVars.rb"
+    require "~/Desktop/rps/Macintosh/bin/PrivateVars.rb"
   end; # end rock paper scissors class
 end; # end master class
 
