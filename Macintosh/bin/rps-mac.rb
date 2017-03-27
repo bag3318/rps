@@ -12,10 +12,10 @@
 
 class Master # create master class
 
-  require "~/Desktop/rps/Macintosh/ref/ObjectArrays.rb";
+  require "~/Desktop/rps/Macintosh/lib/ObjectArrays.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
-    require "~/Desktop/rps/Macintosh/ref/InitText.rb"; 
+    require "~/Desktop/rps/Macintosh/lib/InitText.rb"; 
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them all = to 0
     end; # end initialize
@@ -50,7 +50,7 @@ class Master # create master class
         puts "It's a tie!"; # tell the user
       end; # end case statement
     end; # end play method
-    require "~/Desktop/rps/Macintosh/ref/PrivateVars.rb"
+    require "~/Desktop/rps/Macintosh/lib/PrivateVars.rb"
   end; # end rock paper scissors class
 end; # end master class
 

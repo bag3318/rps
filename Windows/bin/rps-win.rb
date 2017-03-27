@@ -10,10 +10,10 @@
 
 class Master # create master class
 
-  require "~/Desktop/rps/Windows/ref/ObjectArrays.rb";
+  require "~/Desktop/rps/Windows/lib/ObjectArrays.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
-    require "~/Desktop/rps/Windows/ref/InitText.rb";
+    require "~/Desktop/rps/Windows/lib/InitText.rb";
     def initialize # define all dynamic variables ...
       @player_score = @computer_score = @ties = 0; # set them all = to 0
     end; # end initialize
@@ -50,7 +50,7 @@ class Master # create master class
       puts ""; # add a new blank line
       gets; # pause
     end; # end play method
-    require "~/Desktop/rps/Windows/ref/PrivateVars.rb"; # require the private variables module
+    require "~/Desktop/rps/Windows/lib/PrivateVars.rb"; # require the private variables module
   end; # end rock paper scissors class
 end; # end master class
 
