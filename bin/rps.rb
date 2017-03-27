@@ -8,8 +8,8 @@
 |---------------------------------|
 | $ ruby ~/Desktop/rps/bin/rps.rb |
 |*********************************|
-| Windows                         |     
-|---------------------------------|         
+| Windows                         |    
+|---------------------------------|
 | > CD Desktop/rps/bin            |
 | > rps.rb                        |
 |_________________________________|
@@ -23,7 +23,7 @@ class Master
     COMPUTER_CHOICES = NTRY_TO_SYM.values;
     WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # format: player choice, computer choice
     LOSERS = WINNERS.map { |i,j| [j,i] }; # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
-    STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the return key to continue..."];
+    STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the return/enter key to continue..."];
   end;
 
   class RockPaperScissors 
@@ -50,7 +50,7 @@ class Master
         when :WIN
           puts "#{player.to_s.capitalize} beats #{computer.to_s.downcase}, player wins the round"; 
           @player_score += 1;
-        when :LOSE1
+        when :LOSE
           puts "#{computer.to_s.capitalize} beats #{player.to_s.downcase}, computer wins the round";
           @computer_score += 1; 
         else 
@@ -98,5 +98,5 @@ class Master
   end;
 end; 
 
-Master::RockPaperScissors.new.play(3);
+Master::RockPaperScissors.new.play(3); # best of 3
 

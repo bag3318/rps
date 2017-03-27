@@ -16,6 +16,8 @@
 
 ### Macintosh
 
+> Contents loaded in the `Macintosh` folder
+
 1. Move the root cloned/downloaded folder to the Desktop (extract it if needed)
    * What I mean is move the `rps` folder, or the `rps-master.zip` file to the desktop. Then, if you have the `rps-master.zip` file, `double click` it to extract it.
 2. Open the `rps.bash` file with the `Terminal` application
@@ -34,6 +36,8 @@ If you wish to remove the `rps` command, then open the `remover.sh` with the `Te
 > To open with `Terminal`, press <kbd>command</kbd> and <kbd>space</kbd> at the same time, then type in `Terminal.app`, and hit <kbd>return</kbd>. Then proceed to drag the `remover.sh` file onto the `Terminal` and press <kbd>return</kbd>
 
 ### Windows
+
+> Contents located in the `Windows` folder
 
 1. Install ruby; download [here](http://rubyinstaller.org/downloads/)
 2. Open the `rps.bat` file with the `Command Prompt` application
