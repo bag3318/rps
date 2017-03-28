@@ -16,7 +16,7 @@
 
 ### Macintosh
 
-> Contents loaded in the `Macintosh` folder
+> Contents located in the `Macintosh` folder
 
 1. Move the root cloned/downloaded folder to the Desktop (extract it if needed)
    * What I mean is move the `rps` folder, or the `rps-master.zip` file to the desktop. Then, if you have the `rps-master.zip` file, `double click` it to extract it.
