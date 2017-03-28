@@ -1,4 +1,4 @@
-module ObjectArrays # create new module
+module Constants # create new module
     NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; # define entries to symbol
     VALID_ENTRIES = NTRY_TO_SYM.keys; # define valid entries
     COMPUTER_CHOICES = NTRY_TO_SYM.values; # define computer choices

@@ -19,7 +19,7 @@ class Master
 
   class RPS
 
-    module ObjectArrays 
+    module Constants 
       NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; 
       VALID_ENTRIES = NTRY_TO_SYM.keys; 
       COMPUTER_CHOICES = NTRY_TO_SYM.values;
@@ -37,7 +37,7 @@ class Master
           gets; 
         end; 
       end; 
-      continue(ObjectArrays::STRINGS[0], ObjectArrays::STRINGS[1], ObjectArrays::STRINGS[2]);
+      continue(Constants::STRINGS[0], Constants::STRINGS[1], Constants::STRINGS[2]);
       def initialize
         @player_score = @computer_score = @ties = 0; 
       end; 
@@ -46,7 +46,7 @@ class Master
           puts "Player score: #{@player_score}, " + 
                "Computer score: #{@computer_score}, Ties: #{@ties}"; 
           player = PrivateVars.player_choice; 
-          computer = ObjectArrays::COMPUTER_CHOICES.sample; 
+          computer = Constants::COMPUTER_CHOICES.sample; 
           puts "\nPlayer chooses #{player.to_s.downcase}"; 
           puts "Computer chooses #{computer.to_s.downcase}";
           case PrivateVars.player_outcome [player, computer] 
@@ -81,13 +81,13 @@ class Master
             loop do
               print "Choose rock (r), paper (p) or scissors (s): ";
               choice = gets.chomp.downcase;
-              return ObjectArrays::NTRY_TO_SYM[choice] if ObjectArrays::NTRY_TO_SYM.key?(choice); 
+              return Constants::NTRY_TO_SYM[choice] if Constants::NTRY_TO_SYM.key?(choice); 
               puts "That entry is invalid. Please re-enter"; 
             end; 
           end; 
           def player_outcome(plays)
-            return :WIN  if ObjectArrays::WINNERS.include?(plays);
-            return :LOSE if ObjectArrays::LOSERS.include?(plays);
+            return :WIN  if Constants::WINNERS.include?(plays);
+            return :LOSE if Constants::LOSERS.include?(plays);
             return :TIE  if (!:WIN || !:LOSE);
           end; 
           def final_outcome(pl, co) 

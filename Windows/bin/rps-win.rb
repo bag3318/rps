@@ -10,7 +10,7 @@
 
 class Master # create master class
 
-  require "~/Desktop/rps/Windows/lib/ObjectArrays.rb";
+  require "~/Desktop/rps/Windows/lib/Constants.rb";
 
   class RockPaperScissors # create class: Rock Paper Scissors
     require "~/Desktop/rps/Windows/lib/InitText.rb";
@@ -22,7 +22,7 @@ class Master # create master class
         puts "Player score: #{@player_score}, " + 
              "Computer score: #{@computer_score}, Ties: #{@ties}"; # output scores
         player = PrivateVars.player_choice; # define player variable; chooses user-defined input
-        computer = ObjectArrays::COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
+        computer = Constants::COMPUTER_CHOICES.sample; # define copmuter variable; chooses input randomly
         puts "\nPlayer chooses #{player.to_s.downcase}"; # output what the player chooses
         puts "Computer chooses #{computer.to_s.downcase}"; # output computer choice
         case PrivateVars.player_outcome [player, computer] # add a new case 
