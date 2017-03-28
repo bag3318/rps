@@ -20,24 +20,36 @@ class Master
   class RPS
 
     module Constants 
-      NTRY_TO_SYM = { 'p' => :PAPER, 'r' => :ROCK, 's' => :SCISSORS }; 
+      NTRY_TO_SYM = { 
+        'p' => :PAPER, 
+        'r' => :ROCK, 
+        's' => :SCISSORS 
+      }; 
       VALID_ENTRIES = NTRY_TO_SYM.keys; 
       COMPUTER_CHOICES = NTRY_TO_SYM.values;
-      WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # format: player choice, computer choice
+      WINNERS = [
+        [:SCISSORS, :PAPER], 
+        [:PAPER, :ROCK], 
+        [:ROCK, :SCISSORS]
+      ]; # format: player choice, computer choice
       LOSERS = WINNERS.map { |i,j| [j,i] }; # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
-      STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the return/enter key to continue...", ""];
+      INIT_STRINGS = [
+        "You are about to enter a rock-paper-scissors best of 3 match.", 
+        "Press the return/enter key to continue...", 
+        ""
+      ];
     end;
 
     class RockPaperScissors 
       class << self
         def continue(str1, str2, str3)
-          puts str1; 
+          puts  str1; 
           print str2;
-          puts str3;
           gets; 
+          puts  str3;
         end; 
       end; 
-      continue(Constants::STRINGS[0], Constants::STRINGS[1], Constants::STRINGS[2]);
+      continue(Constants::INIT_STRINGS[0], Constants::INIT_STRINGS[1], Constants::INIT_STRINGS[2]);
       def initialize
         @player_score = @computer_score = @ties = 0; 
       end; 
