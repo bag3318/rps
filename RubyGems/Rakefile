@@ -1,0 +1,5 @@
+task default: %w[rps]
+
+task :rps do
+  ruby "~/Desktop/rps/RubyGems/test/test_rps.rb"
+end
