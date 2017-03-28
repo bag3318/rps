@@ -23,18 +23,19 @@ class Master
     COMPUTER_CHOICES = NTRY_TO_SYM.values;
     WINNERS = [[:SCISSORS, :PAPER], [:PAPER, :ROCK], [:ROCK, :SCISSORS]]; # format: player choice, computer choice
     LOSERS = WINNERS.map { |i,j| [j,i] }; # this will take the original WINNERS array and flip the symbols, thus returning a loss for the user/player
-    STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the return/enter key to continue..."];
+    STRINGS = ["You are about to enter a rock-paper-scissors best of 3 match.", "Press the return/enter key to continue...", ""];
   end;
 
   class RockPaperScissors 
     class << self
-      def continue(str1, str2)
+      def continue(str1, str2, str3)
         puts str1; 
         print str2;
+        puts str3;
         gets; 
       end; 
     end; 
-    continue(ObjectArrays::STRINGS[0], ObjectArrays::STRINGS[1]);
+    continue(ObjectArrays::STRINGS[0], ObjectArrays::STRINGS[1], ObjectArrays::STRINGS[2]);
     def initialize
       @player_score = @computer_score = @ties = 0; 
     end; 
